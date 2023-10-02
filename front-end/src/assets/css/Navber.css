@@ -9,17 +9,14 @@ width: 400px;
 list-style: none;
 justify-content: space-around;
 }
-/* .navbar-menu ul li::after{
-content:"";
-display: block;
-position: relative;
-height:2px !important;
-width:0px !important;
-background-color: red;
-transition:0.5s;
-} */
+.navbar-icon{
+margin-right:5px;
+}
 .navbar-menu ul li{
 transition: 0.5s;
+display: flex;
+align-items: center;
+justify-content: space-between;
 padding: 2px;
 border-radius: 2px;
 }
