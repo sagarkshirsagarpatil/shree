@@ -10,7 +10,7 @@ const Navbar=()=>{
       </div>
       <div className='navbar-menu'>
 <ul>
-   <li><FaHome className='navbar-icon'/>ome</li> 
+   <li><FaHome className='navbar-icon'/>Home</li> 
    <li><FaHome className='navbar-icon'/>About</li> 
    <li><FaBell className='navbar-icon'/>Service</li> 
    <li><FaUser className='navbar-icon'/>Cotacts</li>                 
