@@ -1,11 +1,14 @@
-import React from 'react'
-import '../assets/css/Navber.css';
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaBell, FaHome, FaUser } from "react-icons/fa";
-const Navbar=()=>{
+const Nvbar=()=>{
   return (
     <div className='navbar-main'>
-      <div className='navbar-logo'>
-         <FaHome/>
+      {/* <div className='navbar-logo'>
+      
         <img src=""/>
       </div>
       <div className='navbar-menu'>
@@ -15,8 +18,37 @@ const Navbar=()=>{
    <li><FaBell className='navbar-icon'/>Service</li> 
    <li><FaUser className='navbar-icon'/>Cotacts</li>                 
 </ul>
-      </div>
+<div className='navbar-button'>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+      </div> */}
+     <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">Link</Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+
      </div>
   )
 }
-export default Navbar;
+export default Nvbar;

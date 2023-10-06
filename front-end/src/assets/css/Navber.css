@@ -1,27 +1,48 @@
-.navbar-main{
-border: 1px solid red;
+@font-face {
+                    font-family:roboto;
+                    src:url('../font/Roboto/Roboto-Medium.ttf');
+                  }
+                  @font-face {
+                    font-family:roboto-italic;
+                    src:url('../font/Roboto/Roboto-MediumItalic.ttf');
+                  }
+body{
+font-family: roboto !important;
+}
+.main-navbar{
+position:sticky;
+top:0;
+z-index:2;
+}
+h1{
+font-family:roboto-italic;
+color:red !important;
+font-size: 25px !important;
+margin-bottom: -10px !important;
+}
+.logo-sub{
+font-size: 12px;
+}
+.subHeader{
 display: flex;
 justify-content: space-between;
-}
-.navbar-menu ul{
-display: flex;
-width: 400px;
-list-style: none;
-justify-content: space-around;
-}
-.navbar-icon{
-margin-right:5px;
-}
-.navbar-menu ul li{
-transition: 0.5s;
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 2px;
-border-radius: 2px;
-}
-.navbar-menu ul li:hover{
-background-color:red;
+padding: 5px;
+background-color: black;
 color: white;
-transition:0.5s;
+}
+.Nav-Link{
+color:black;
+text-decoration: none;
+padding-left: 5px;
+padding-right: 5px;
+border-radius: 3px;
+transition: 0.5s;
+}
+.bg-body-tertiary{
+background-color: white;
+}
+.Nav-Link:hover{
+transition: 0.5s;
+background-color: red;
+color:white;
 }
