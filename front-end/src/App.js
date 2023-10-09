@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./component/Navbar";
 import BasicExample from "./component/nav";
+import Footer from "./component/footer";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -15,6 +15,7 @@ const App=()=>{
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/services" element={<Contact/>}/>
         </Routes>
+        <Footer/>
      </BrowserRouter>
   )
    

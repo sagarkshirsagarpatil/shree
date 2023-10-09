@@ -2,6 +2,7 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import '../assets/css/Home.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Home_bg from '../assets/images/home-bg.jpg';
@@ -16,7 +17,7 @@ import items_8 from '../assets/images/8.jpg';
 const options = {
   margin: 50,
   responsiveClass: true,
-  nav: true,
+  nav: false,
   dots:true,
   autoplay:true,
   smartSpeed: 1000,
@@ -25,7 +26,7 @@ const options = {
           items: 1,
       },
       400: {
-          items: 1,
+          items: 2,
       },
       600: {
           items: 2,
@@ -45,8 +46,7 @@ const Home=()=>{
     <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
-        height="550px"
-          className="d-block w-100"
+      className="d-block w-100 crawser-img"
           src={Home_bg}
           alt="First slide"
         />
@@ -58,8 +58,7 @@ const Home=()=>{
       </Carousel.Item>
       <Carousel.Item>
         <img
-        height="550px"
-          className="d-block w-100"
+       className="d-block w-100 crawser-img"
           src={Home_bg}
           alt="Second slide"
         />
@@ -103,7 +102,11 @@ new instruments.							</p>
        <p>* Thermal Calibration	</p>	
      </div>
      <div className='product-crowser container '>
-     <OwlCarousel className='owl-theme' loop margin={10} nav {...options}>
+      <div className='d-flex mt-5 align-items-center'> <div className='title-line'></div>
+      <h2 className='text-center'>Our Services</h2>
+      <div className='title-line'></div>
+      </div>
+     <OwlCarousel className='owl-theme mt-5' loop margin={10} nav {...options}>
     <div class='item'>
         <img src={items_1}/>
         <h5 className='text-center mt-3'>Ampere Meter</h5>
