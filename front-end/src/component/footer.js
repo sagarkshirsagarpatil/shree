@@ -58,6 +58,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="last-path text-center">
+     <div>
+      <p className="p-2">Hosted By : shreecalibration</p>
+     </div>
+      </div>
     </div>
   );
 };

@@ -11,9 +11,9 @@ const App=()=>{
           <BasicExample/>
         <Routes>
           <Route path="/shree" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/services" element={<Contact/>}/>
+          <Route path="shree/about" element={<About/>}/>
+          <Route path="shree/contact" element={<Contact/>}/>
+          <Route path="shree/services" element={<Contact/>}/>
         </Routes>
         <Footer/>
      </BrowserRouter>

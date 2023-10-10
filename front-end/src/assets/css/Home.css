@@ -7,12 +7,15 @@
   width: 40%;
   margin: 0px auto;
 }
+.aboute img{
+object-fit: cover;
+}
 @media only screen and (max-width: 600px) {
   .crawser-img {
     height: auto;
   }
   .item img {
-    height:70px;
+   
   }
 }
 
@@ -22,7 +25,8 @@
     height: auto;
   }
   .item img {
-    height:100px;
+    height: 100px;
+    object-fit: cover;
   }
 }
 
@@ -32,7 +36,8 @@
     height: auto;
   }
   .item img {
-    height: 100px;
+    height: 150px;
+  
   }
 }
 
@@ -43,7 +48,12 @@
   }
   .item img {
     height: 200px;
+    
   }
+  .aboute img{
+    object-fit: cover;
+    height: 300px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -51,4 +61,8 @@
   .crawser-img {
     height: 600px;
   }
+  .aboute img{
+    object-fit: cover;
+    height: 600px;
+    }
 }

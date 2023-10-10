@@ -25,9 +25,9 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-0 ms-auto">
          <Nav.Link><Link to="/shree" className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Home</Link></Nav.Link>
-         <Nav.Link> <Link to="/about"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>About</Link></Nav.Link>
-         <Nav.Link> <Link to="/services"  className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Services</Link></Nav.Link>
-         <Nav.Link> <Link to="/contact"  className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Contact Us</Link></Nav.Link>
+         <Nav.Link> <Link to="shree/about"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>About</Link></Nav.Link>
+         <Nav.Link> <Link to="shree/services"  className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Services</Link></Nav.Link>
+         <Nav.Link> <Link to="shree/contact"  className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Contact Us</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>

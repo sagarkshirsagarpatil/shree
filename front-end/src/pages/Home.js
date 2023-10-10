@@ -14,8 +14,9 @@ import items_5 from '../assets/images/5.jpg';
 import items_6 from '../assets/images/6.jpg';
 import items_7 from '../assets/images/7.jpg';
 import items_8 from '../assets/images/8.jpg';
+import about_us from '../assets/images/about-us.jpg';
 const options = {
-  margin: 50,
+  margin: 40,
   responsiveClass: true,
   nav: false,
   dots:true,
@@ -29,10 +30,10 @@ const options = {
           items: 2,
       },
       600: {
-          items: 2,
+          items: 3,
       },
       700: {
-          items: 3,
+          items: 4,
       },
       1000: {
           items:5,
@@ -72,7 +73,7 @@ const Home=()=>{
      <div className='aboute container'>
         <h2 className='text-center mt-5'>About Us</h2>
         <div className='row mt-3'>
-          <div className='col-6'>
+          <div className='col-12 col-xl-6'>
             <p>We "Shree Calibration Measure and Services" from 2023. We are providing an excellent 						
 quality of calibration and repairing services and our setup is situated in Chhatrapati 						
 Sambhajinagar , Maharashtra, India. We majorly services the customers from 						
@@ -93,11 +94,11 @@ huge client base across the nation NABL calibration and repairing services for p
 measuring instruments in the field of mechanical, thermal. We also deal in sales of old and 							
 new instruments.							</p>
           </div>
-          <div className='col-6'>
-          <img src=""/>
+          <div className='col-12 col-xl-6'>
+          <img height="500px" width="100%" src={about_us}/>
           </div>
         </div>
-       <h4> Calibration Services</h4> 	
+       <h4 className='mt-5'> Calibration Services</h4> 	
        <p>* Mechanical calibration	</p>
        <p>* Thermal Calibration	</p>	
      </div>
