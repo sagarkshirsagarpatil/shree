@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Enquery from "./pages/Enquery";
+import Services from "./pages/Services";
 const App=()=>{
   return (
     <BrowserRouter>
@@ -14,7 +15,7 @@ const App=()=>{
           <Route path="shree" element={<Home/>}/>
             <Route path="about" element={<About/>}/>
             <Route path="contact" element={<Contact/>}/>
-            <Route path="services" element={<Contact/>}/>
+            <Route path="services" element={<Services/>}/>
             <Route path="enquery" element={<Enquery/>}/>
         </Routes>
         <Footer/>

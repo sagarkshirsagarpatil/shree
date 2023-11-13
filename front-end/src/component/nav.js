@@ -1,11 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavDropdown } from 'react-bootstrap';
 import {FaHome, FaMailBulk, FaPhone, FaPhoneAlt, FaUser} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import logo from'../assets/images/shreecalicon.jpg';
 import '../assets/css/Navber.css'
 function BasicExample() {
+  const title=`${<FaHome/>}Service`;
+  console.log(title);
   return (
     <div className='main-navbar'>
       
@@ -26,7 +29,15 @@ function BasicExample() {
           <Nav className="me-0 ms-auto">
          <Nav.Link><Link to="/shree" className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Home</Link></Nav.Link>
          <Nav.Link> <Link to="about"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>About</Link></Nav.Link>
-         <Nav.Link> <Link to="services"  className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Services</Link></Nav.Link>
+         <Nav.Link> <Link to="services"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>Services</Link></Nav.Link>
+
+        
+        {/* <NavDropdown title={<span><FaHome className='navbar-icon me-1'/>Service</span>} id="basic-nav-dropdown">
+              <NavDropdown.Item><Link>Calibration Service</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link>Instrument Repair</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link>Supply Measuring instruments & Gauges</Link></NavDropdown.Item>
+            </NavDropdown>
+             */}
          <Nav.Link> <Link to="contact"  className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Contact Us</Link></Nav.Link>
          <Nav.Link> <Link to="/enquery"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>Enquiry</Link></Nav.Link>
           </Nav>
