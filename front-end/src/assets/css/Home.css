@@ -15,7 +15,7 @@ object-fit: cover;
     height: auto;
   }
   .item img {
-   
+   height:130px;
   }
 }
 

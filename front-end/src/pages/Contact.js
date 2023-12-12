@@ -8,7 +8,7 @@ return(
     <div className="col-12 col-sm-12 col-md-6">
       <h5>Shree Calibration Measurment & Testing Services 					
 					</h5>
-         <div className="d-flex"><FaAddressBook className="me-2"/><p>Plot No. 97 Shop No. 06 Manish Aparment , Roplekar Hospital  					
+         <div className="d-flex"><p><FaAddressBook className="me-2" /></p><p>Plot No. 97 Shop No. 06 Manish Aparment , Roplekar Hospital  					
 Road , Tilak Nagar Chhatrapati Sabhaji Nagar-Maharasthra -431001 					</p>
 </div>
 <div className="d-flex"><FaMailBulk className="me-2"/><p>shreecalibration.mt@gmail.com		</p></div>

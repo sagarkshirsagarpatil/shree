@@ -49,10 +49,8 @@ const Footer = () => {
           <div className="mt-4 mt-md-0 col-12 col-sm-12 col-md-5">
             <h5 className="mb-4">Shree Calibration Measurment & Testing Services 					
 					</h5>
-          <p> <FaAddressBook className="me-2" /> Plot No. 97 Shop No. 06 Manish Aparment , Roplekar Hospital  				 </p>
-          <p className="ps-3"> <span className="ms-2"></span> Road , Tilak Nagar Chhatrapati Sabhaji Nagar-Maharasthra -431001 				 </p>
-            <p> </p><br/>
-            <p> <FaMailBulk className="me-2" />shreecalibration.mt@gmail.com		</p>
+          <p className="d-flex"><p> <FaAddressBook className="me-2" /></p>Plot No. 97 Shop No. 06 Manish Aparment,Roplekar Hospital Road,Tilak Nagar Chhatrapati Sabhaji Nagar-Maharasthra -431001 				 </p>
+          		<p> <FaMailBulk className="me-2" />shreecalibration.mt@gmail.com		</p>
             <p> <FaPhoneAlt className="me-2" />
             + 91 8888986900	</p>
           </div>

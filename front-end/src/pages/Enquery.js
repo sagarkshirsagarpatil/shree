@@ -15,7 +15,7 @@ return(
  <span>For any kind of query, contact us with the details below.</span>
  <div className=" d-flex mt-2"><FaPhoneAlt className="me-2"/> <p>+91 8888986900</p></div>
  <div className=" d-flex"><FaMailBulk className="me-2"/><p>shreecalibration.mt@gmail.com</p></div>
- <div className=" d-flex"><FaAddressCard className="me-2"/><p> Plot No. 97 Shop No. 06 Manish Aparment , Roplekar Hospital  					
+ <div className=" d-flex"><p><FaAddressCard className="me-2"/></p><p> Plot No. 97 Shop No. 06 Manish Aparment , Roplekar Hospital  					
 Road , Tilak Nagar Chhatrapati Sabhaji Nagar-Maharasthra -431001</p> 					</div>
 </div>
 <div className="container">
@@ -58,7 +58,7 @@ Road , Tilak Nagar Chhatrapati Sabhaji Nagar-Maharasthra -431001</p> 					</div>
           aria-describedby="basic-addon1"
         />
       </InputGroup>
-      <InputGroup>
+      <InputGroup className="mb-3">
         <Form.Control style={{height:"145px"}}   placeholder="Recquirement Details" as="textarea" aria-label="With textarea" />
       </InputGroup>
 </div>
