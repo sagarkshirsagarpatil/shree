@@ -23,11 +23,11 @@ function BasicExample() {
       </div>
     <Navbar expand="lg" className="bg-body-tertiary">
     <Container>
-        <Navbar.Brand href="#home" className='d-flex'><img height="50px" src={logo}/><div className='ms-2'><h1>Shree Calibration</h1><span className='logo-sub'>Measurement And Testing Services 			</span></div></Navbar.Brand>
+        <Navbar.Brand className='d-flex'><Link to="/"><img height="50px" src={logo}/><div className='ms-2'><h1>Shree Calibration</h1><span className='logo-sub'>Measurement And Testing Services 			</span></div></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-0 ms-auto">
-         <Nav.Link><Link to="/shree" className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Home</Link></Nav.Link>
+         <Nav.Link><Link to="/" className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Home</Link></Nav.Link>
          <Nav.Link> <Link to="about"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>About</Link></Nav.Link>
          <Nav.Link> <Link to="services"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>Services</Link></Nav.Link>
 
