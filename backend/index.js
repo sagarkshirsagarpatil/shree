@@ -11,6 +11,14 @@ require('./DB/DB')
  app.get('/getdata',async(req,res)=>{
    const clientData = await client.find();
     res.json(clientData);
+ })
+
+ app.post('/postdata',async(req,res)=>{
+    const data=req.body;
+    console.log(data)
+        const student = new client(req.body);
+    await student.save();
+    res.send("Student Added Successfully");
 
  })
 
