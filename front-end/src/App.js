@@ -7,6 +7,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Enquery from "./pages/Enquery";
 import Services from "./pages/Services";
+import List from "./pages/List";
+
 const App=()=>{
   return (
     <BrowserRouter>
@@ -17,6 +19,7 @@ const App=()=>{
             <Route path="contact" element={<Contact/>}/>
             <Route path="services" element={<Services/>}/>
             <Route path="enquery" element={<Enquery/>}/>
+            <Route path="list" element={<List/>}/>
         </Routes>
         <Footer/>
      </BrowserRouter>

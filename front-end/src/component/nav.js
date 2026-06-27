@@ -40,6 +40,7 @@ function BasicExample() {
              */}
          <Nav.Link> <Link to="contact"  className='Nav-Link d-flex align-items-center'><FaHome className='navbar-icon me-1'/>Contact Us</Link></Nav.Link>
          <Nav.Link> <Link to="/enquery"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>Enquiry</Link></Nav.Link>
+           <Nav.Link> <Link to="/list"  className='Nav-Link d-flex align-items-center'><FaUser className='navbar-icon me-1'/>List</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
