@@ -10,7 +10,7 @@ const [userData,setUserData]=useState([]);
     
         const data=async()=>{
        console.log(process.env.REACT_APP_HOST)
-      const clientData=await axios.get(process.env.REACT_APP_HOST);
+      const clientData=await axios.get(`${process.env.REACT_APP_HOST}getdata`);
       console.log(clientData.data);
       setUserData(clientData?.data)
         } 
