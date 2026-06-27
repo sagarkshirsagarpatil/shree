@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "node-app",
-      script: "./server.js", // Change to app.js or index.js if needed
+      script: "./index.js", // Change to app.js or index.js if needed
       instances: 1,
       exec_mode: "fork",
       watch: false,
