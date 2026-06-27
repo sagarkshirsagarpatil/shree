@@ -23,7 +23,7 @@ function BasicExample() {
       </div>
     <Navbar expand="lg" className="bg-body-tertiary">
     <Container>
-        <Navbar.Brand className='d-flex'><Link to="/"><img height="50px" src={logo}/><div className='ms-2'><h1>Shree Calibration</h1><span className='logo-sub'>Measurement And Testing Services 			</span></div></Link></Navbar.Brand>
+        <Navbar.Brand ><Link to="/" className='d-flex'><img height="50px" src={logo}/><div className='ms-2'><h1>Shree Calibration</h1><span className='logo-sub'>Measurement And Testing Services 			</span></div></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-0 ms-auto">
